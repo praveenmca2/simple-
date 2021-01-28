@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+	background:orange;
+}
+.first{
+	width: 1100px;
+	height: 450px;
+	background: #fff;
+	margin-left: 120px;
+	margin-top: 120px;
+	border-radius: 12px;
+	background-color:rgb(255,255,255,0.5);
+	box-shadow: 0 5px 15px rgb(0,0,0,0.5);
+
+
+}
+#search{
+	margin-left: 100px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+ul {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 20px;
+
+
+
+	
+}
+li{
+	margin:5px 10px;
+	margin-left: 180px;
+	padding: 10px;
+	display: inline;
+
+}
+ul li:hover{
+	color:blue;
+	cursor: pointer;
+
+
+} 
+.second img{
+	margin-left: 40px;
+	margin-top: 30px;
+	border: 1px solid#fff;
+	border-radius: 10px;
+}
+.three{
+	float: right;
+	margin: 10px;
+	
+	margin: 5px 170px;
+}
+.three button{
+	padding: 5px 50px;
+	border: 1px solid #000;
+	margin-bottom: 35px;
+	background-color:skyblue;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+.three p{
+	margin: 10px;
+	font-weight: bold;
+	margin-bottom: 15px;
+
+}
+.three button:hover{
+	background-color: orange;
+	cursor: pointer;
+	color: #fff;
+}
+.kk{
+	padding: 5px 50px;
+	float: right;
+	margin-top: 200px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	
+}
+ .second button:hover{
+	background-color: red;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+}
+.second img:hover{
+	transition: 0.6s;
+	transform: scale(1.2);
+	cursor: pointer;
+	background-image: url('img/fa1.jpg');
+}
+.second i{
+	font-size: 30px;
+	margin: 2px;
+	padding: 30px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 0px;
+}
+#hi{
+	margin-top: 100px;
+	float: right;
+	padding: 30px;
+}
+#oi{
+	margin-top: 100px;
+	float: right;
+	padding: 30px;
+
+}
